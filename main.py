@@ -9,7 +9,7 @@ import datetime
 
 
 url = 'https://api.spotify.com/v1/me/player/currently-playing'
-access_token ='BQCoUSBUHDBM5S91Q2MEDT6CBrTZ7JqFb42yUHnhWGgPpQy6fjW_6reQ1R4S37_AI87rWTdQYVTmM8S_nCokiGeOLQ42q5tyBGw-51ylcckwCfsLqKRYDQ4XD-E8MW1b4bGJcTCrSmG-mPclqPrajdEdJXWPOIc08NprhpFejMk'
+access_token =''
 
 
 #Extract Data
