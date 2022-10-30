@@ -13,7 +13,7 @@ access_token ='BQCoUSBUHDBM5S91Q2MEDT6CBrTZ7JqFb42yUHnhWGgPpQy6fjW_6reQ1R4S37_AI
 
 
 #Extract Data
-def get_current_track():
+def get_current_tracks():
     response = requests.get(
         url,
         headers={
@@ -87,7 +87,7 @@ def loading_data():
 
 
 def main():
-    get_current_track()
+    get_current_tracks()
     transformed_data()
     loading_data()
 
