@@ -6,11 +6,14 @@ import sqlite3
 from sqlalchemy import create_engine
 import sqlite3
 import datetime
+import logging
 
 
 url = 'https://api.spotify.com/v1/me/player/currently-playing'
 access_token =''
 
+#Logging setting
+logging.basicConfig(filename='etljob.log',level=logging.DEBUG, format='%(asctime)s  %(name)s  %(levelname)s: %(message)s')
 
 #Extract Data
 def get_current_tracks():
